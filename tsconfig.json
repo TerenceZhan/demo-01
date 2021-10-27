@@ -16,6 +16,20 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@dx/features": [
+        "libs/features/src"
+      ],
+      "@dx/features/*": [
+        "libs/features/src/*"
+      ],
+      "@dx/providers": [
+        "libs/providers/src"
+      ],
+      "@dx/providers/*": [
+        "libs/providers/src/*"
+      ]
+    }
   }
 }
